@@ -1,0 +1,13 @@
+# Built result
+*.d.ts
+*.js
+
+# Test results
+coverage/
+
+# Dependencies
+node_modules/
+
+# Temp files
+*.tmp
+*.log
