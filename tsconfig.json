@@ -3,6 +3,7 @@
         "target": "ES2018",
         "module": "commonjs",
         "strict": true,
+        "declaration": true,
         "sourceMap": false
     },
     "exclude": [
