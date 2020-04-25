@@ -15,19 +15,21 @@ describe("float", () => {
             spy.mockRestore();
         });
 
-        it("should not add draft04 to ajv metaschemas by default", () => {
+        it("should add draft04 to ajv metaschemas by default", () => {
             openapi(ajv);
-            expect(spy).not.toBeCalled();
-        });
 
-        it("should add draft04 to ajv metaschemas", () => {
-            openapi(ajv, { useDraft04: true });
             expect(spy).toBeCalledTimes(1);
             expect(spy).toBeCalledWith(
                 expect.objectContaining({
                     $schema: "http://json-schema.org/draft-04/schema#"
                 })
             );
+        });
+
+        it("should not add draft04 to ajv metaschemas if useDraft04 = false", () => {
+            openapi(ajv, { useDraft04: false });
+
+            expect(spy).not.toBeCalled();
         });
 
     });
