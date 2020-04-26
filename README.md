@@ -5,7 +5,7 @@
 [![NPM download](https://img.shields.io/npm/dm/ajv-openapi.svg?style=flat-square)](https://npmjs.org/package/ajv-openapi)
 [![Build Status](https://travis-ci.org/touchifyapp/ajv-openapi.svg?branch=master)](https://travis-ci.org/touchifyapp/ajv-openapi)
 [![Test Coverage](https://coveralls.io/repos/github/touchifyapp/ajv-openapi/badge.svg)](https://coveralls.io/github/touchifyapp/ajv-openapi)
-[![Dependency Status](https://img.shields.io/david/amazing-gao/ajv-oai.svg)](https://david-dm.org/amazing-gao/ajv-oai)
+[![Dependency Status](https://img.shields.io/david/touchifyapp/ajv-openapi.svg)](https://david-dm.org/touchifyapp/ajv-openapi)
 
 [Ajv](https://github.com/epoberezkin/ajv) plugin that adds Open API v3 [data types](http://swagger.io/specification/#dataTypeFormat) (formats: int32, int64, float, double, byte) validation.
 
